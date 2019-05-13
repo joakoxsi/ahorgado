@@ -4,7 +4,7 @@ public class ahorcado {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String palabras[] = {"fidelcastro","reformaagraria","fulgenciobatista","revolucioncubana","ola","pokemon"};
+String palabras[] = {"fidel-castro","reforma-agraria","fulgencio-batista","revolucion-cubana","jhon-kenedy","crisis-de-los-misiles"};
     int aletoria = (int) Math.floor(Math.random()*(palabras.length ));
     String palabra = palabras[aletoria];
     // al pedir una palabra del array sin especificar esta,me tiraba el numero del array
@@ -25,7 +25,7 @@ String palabras[] = {"fidelcastro","reformaagraria","fulgenciobatista","revoluci
         System.out.println("");
         System.out.println("La pista es:");
     	
-  int a=3;
+   char a = sha:;
   		
   		switch(a){
   		case 0:{
@@ -67,7 +67,7 @@ String palabras[] = {"fidelcastro","reformaagraria","fulgenciobatista","revoluci
 
     		if(Arrays.equals(letras, letrasConGuiones)) {
     			System.out.println("Has ganado ;)");
-    			break;
+    	            break;
     		}
     		
     		System.out.println(letrasConGuiones);
